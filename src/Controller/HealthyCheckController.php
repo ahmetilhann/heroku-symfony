@@ -9,7 +9,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class HealthyCheckController extends AbstractController
 {
     /**
-     * @Route("/healthy/check", name="healthy_check")
+     * @Route("/", name="healthy_check")
      */
     public function index(): Response
     {
